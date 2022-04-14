@@ -28,6 +28,8 @@ services:
       name: mysql-wordpress
       type: pserv
       envVarKey: MYSQL_PASSWORD
+  - key: TEST_VAR
+    generateValue: true
 - type: pserv
   name: mysql-wordpress
   repo: https://github.com/render-examples/mysql.git
