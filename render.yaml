@@ -51,3 +51,5 @@ services:
     generateValue: true
   - key: TEST_VAR
     generateValue: true
+  - key: TEST_VAR_2
+    generateValue: true
